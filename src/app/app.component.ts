@@ -7,6 +7,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FormService } from './services/form.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { FormService } from './services/form.service';
     FieldSettingsComponent, 
     DragDropModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   template: `
     <div class="flex flex-col h-screen bg-gray-100 px-4"
